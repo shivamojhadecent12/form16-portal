@@ -1,0 +1,11 @@
+npm error Lifecycle script `start` failed with error:
+npm error workspace form16-portal-frontend@1.0.0
+npm error location /Users/shivamojha/Desktop/Test/form16-portal/frontend
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run --workspace=form16-portal-frontend@1.0.0

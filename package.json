@@ -1,0 +1,16 @@
+{
+  "name": "form16-portal",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "backend:dev": "npm run dev --workspace=backend",
+    "backend:setup": "npm run db:setup --workspace=backend",
+    "backend:seed": "npm run db:seed --workspace=backend"
+  }
+}
