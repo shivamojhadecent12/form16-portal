@@ -22,6 +22,7 @@ app.use(cors({
       'http://localhost:3001',
       'http://localhost:3002',
       'http://localhost:5173',
+      'https://form16-portal.onrender.com',
     ];
     // Allow requests with no origin (e.g. curl, mobile apps)
     if (!origin || allowed.includes(origin)) {
